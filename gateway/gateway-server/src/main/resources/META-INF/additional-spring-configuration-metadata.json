@@ -1,0 +1,37 @@
+{"properties": [
+  {
+    "name": "spring.cloud.nacos.config.extension-configs[0].data-id",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.cloud.nacos.config.extension-configs[0].data-id'"
+  },
+  {
+    "name": "spring.cloud.nacos.config.extension-configs[0].group",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.cloud.nacos.config.extension-configs[0].group'"
+  },
+  {
+    "name": "spring.cloud.nacos.config.extension-configs[0].refresh",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.cloud.nacos.config.extension-configs[0].refresh'"
+  },
+  {
+    "name": "spring.cloud.nacos.config.import",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.cloud.nacos.config.import'"
+  },
+  {
+    "name": "spring.application.identifier",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.application.identifier'"
+  },
+  {
+    "name": "spring.application.node",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.application.node'"
+  },
+  {
+    "name": "spring.application.node-id",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.application.node-id'"
+  }
+]}

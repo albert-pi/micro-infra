@@ -1,0 +1,17 @@
+server: 
+  port: 8280
+spring: 
+  application:
+    name: payment
+  cloud:
+    nacos:
+      server-addr: ${nacos.server:127.0.0.1:8848}
+      username: ${nacos.username:nacos}
+      password: ${nacos.password:nacos}      
+      discovery:        
+        namespace: ${nacos.namespace:public}
+        group: ${nacos.group:DEFAULT_GROUP}
+      config:
+        file-extension: yaml 
+        namespace: ${spring.cloud.nacos.discovery.namespace}
+        group: ${spring.cloud.nacos.discovery.group}   

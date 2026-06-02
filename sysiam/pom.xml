@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.microinfra</groupId>
+		<artifactId>microinfra-parent</artifactId>
+		<version>1.0.0</version>
+		<relativePath>../parent/pom.xml</relativePath>
+	</parent>
+
+	<artifactId>microinfra-sysiam</artifactId>
+	<version>${revision}</version>
+	<packaging>pom</packaging>
+	<name>microinfra-sysiam</name>
+	<description>system identify and access management module</description>
+	
+	<properties>
+		<revision>1.0.0</revision>
+	</properties>
+	
+	<modules>
+		<module>sysiam-commons</module>
+		<module>sysiam-core</module>
+		<module>sysiam-client</module>
+		<module>sysiam-server</module>
+		<module>build</module>
+	</modules>
+	
+</project>

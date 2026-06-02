@@ -1,0 +1,17 @@
+server: 
+  port: 18180
+spring: 
+  application:
+    name: standalone 
+    node-id: 1  
+  cloud:
+    nacos:
+      server-addr: ${nacos.server:127.0.0.1:8848}
+      username: ${nacos.username:nacos}
+      password: ${nacos.password:nacos}
+      config:
+        file-extension: yaml 
+        namespace: ${nacos.namespace:public}
+        group: ${nacos.group:DEFAULT_GROUP}
+        shared-configs:
+          - application.${spring.cloud.nacos.config.file-extension}

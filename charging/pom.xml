@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.microinfra</groupId>
+		<artifactId>microinfra-parent</artifactId>
+		<version>1.0.0</version>
+	</parent>
+
+	<artifactId>microinfra-charging</artifactId>
+	<version>${revision}</version>
+	<packaging>pom</packaging>
+	<name>microinfra-charging</name>
+	<description>charging service module</description>
+
+	<properties>
+		<revision>1.0.0</revision>
+	</properties>
+
+	<modules>
+		<module>charging-commons</module>
+		<module>charging-core</module>
+		<module>charging-client</module>
+		<module>charging-server</module>
+		<module>build</module>
+	</modules>
+</project>
