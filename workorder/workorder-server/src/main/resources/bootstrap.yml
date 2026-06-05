@@ -2,7 +2,7 @@ server:
   port: 9580
 spring: 
   application:
-    name: cust-service   
+    name: workorder   
   cloud:
     nacos:
       server-addr: ${nacos.server:127.0.0.1:8848}

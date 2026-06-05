@@ -4,15 +4,15 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.microinfra</groupId>
-		<artifactId>microinfra-customer</artifactId>
+		<artifactId>microinfra-workorder</artifactId>
 		<version>${revision}</version>
 		<relativePath>../pom.xml</relativePath>
 	</parent>
 	
-	<artifactId>custservice-ui</artifactId>
-	<name>custservice-ui</name>
+	<artifactId>workorder-ui</artifactId>
+	<name>workorder-ui</name>
 	<packaging>jar</packaging>
-	<description>customer service application ui</description>
+	<description>workorder service application ui</description>
 
 	<build>
 		<plugins>

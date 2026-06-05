@@ -5,13 +5,13 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.microinfra</groupId>
-		<artifactId>microinfra-customer</artifactId>
+		<artifactId>microinfra-workorder</artifactId>
 		<version>${revision}</version>
 		<relativePath>../pom.xml</relativePath>
 	</parent>
-	<artifactId>custservice-server</artifactId>
-	<name>custservice-server</name>
-	<description>customer service server</description>
+	<artifactId>workorder-server</artifactId>
+	<name>workorder-server</name>
+	<description>workorder service server</description>
 
 	<dependencies>
 		<dependency>

@@ -10,20 +10,20 @@
 		<relativePath>../parent/pom.xml</relativePath>
 	</parent>
 
-	<artifactId>microinfra-customer</artifactId>
+	<artifactId>microinfra-workorder</artifactId>
 	<version>${revision}</version>
 	<packaging>pom</packaging>
-	<name>microinfra-customer</name>
-	<description>customer service application</description>
+	<name>microinfra-workorder</name>
+	<description>workorder application</description>
 	
 	<properties>
 		<revision>1.0.0</revision>
 	</properties>
 
 	<modules>
-		<module>custservice-core</module>
-		<module>custservice-server</module>
-		<module>custservice-ui</module>
+		<module>workorder-core</module>
+		<module>workorder-server</module>
+		<module>workorder-ui</module>
 		<module>build</module>
 	</modules>
 </project>

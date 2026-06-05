@@ -10,10 +10,10 @@ import org.springframework.stereotype.Service;
 
 import com.alibaba.fastjson2.JSON;
 
+import io.thingshub.Page;
 import io.thingshub.client.DeviceInfo;
 import io.thingshub.client.DeviceQueryCriterions;
 import io.thingshub.client.ThingshubClient;
-import io.thingshub.commons.model.Page;
 import lombok.extern.slf4j.Slf4j;
 
 /**
@@ -44,7 +44,7 @@ public class ParkingDeviceManager {
 			log.info("device info: " + JSON.toJSONString(deviceInfo));
 
 			Map<String, Object> updateParams = new HashMap<>();
-			updateParams.put("url1", "http://www.test.com/qlock-app-v4.0.bin");
+			updateParams.put("url", "http://www.test.com/qlock-app-v4.0.bin");
 			thingshubClient.publish("HY-001", "320027880006", "update", updateParams);
 
 //		thingshubClient.publish("HY-001", "320027880006", "status_req", null);

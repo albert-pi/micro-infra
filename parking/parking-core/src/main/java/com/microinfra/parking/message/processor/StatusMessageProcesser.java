@@ -32,6 +32,8 @@ public class StatusMessageProcesser implements MessageProcessor<StatusMessage> {
 
 		thingshubClient.reply("HY-001", sn, REPLY_MESSAGE_NAME, messageId, null);
 
+//		thingshubClient.replyWithError("HY-001", sn, REPLY_MESSAGE_NAME, messageId, 500, "error message");
+
 	}
 
 }

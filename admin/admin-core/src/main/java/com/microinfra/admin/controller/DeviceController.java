@@ -11,10 +11,10 @@ import com.microinfra.admin.controller.params.DeviceRequestParams.QueryDevicePar
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+import io.thingshub.Page;
 import io.thingshub.client.DeviceInfo;
 import io.thingshub.client.DeviceQueryCriterions;
 import io.thingshub.client.ThingshubClient;
-import io.thingshub.commons.model.Page;
 import lombok.extern.slf4j.Slf4j;
 
 @Api(tags = "设备管理接口")
